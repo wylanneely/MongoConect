@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B2FBADB61F63876A0067F605 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FBADB51F63876A0067F605 /* AppDelegate.swift */; };
+		B2FBADB81F63876A0067F605 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FBADB71F63876A0067F605 /* ViewController.swift */; };
+		B2FBADBB1F63876A0067F605 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2FBADB91F63876A0067F605 /* Main.storyboard */; };
+		B2FBADBD1F63876A0067F605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2FBADBC1F63876A0067F605 /* Assets.xcassets */; };
+		B2FBADC01F63876A0067F605 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2FBADBE1F63876A0067F605 /* LaunchScreen.storyboard */; };
+		B2FBADC81F6388510067F605 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FBADC71F6388510067F605 /* Networking.swift */; };
+		B2FBADCA1F63888B0067F605 /* MGMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FBADC91F63888B0067F605 /* MGMessage.swift */; };
+		B2FBADCC1F6388F10067F605 /* MongoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FBADCB1F6388F10067F605 /* MongoController.swift */; };
+		B2FBADCE1F63AA300067F605 /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FBADCD1F63AA300067F605 /* MessageTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B2FBADB21F63876A0067F605 /* MongoDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MongoDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B2FBADB51F63876A0067F605 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B2FBADB71F63876A0067F605 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B2FBADBA1F63876A0067F605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B2FBADBC1F63876A0067F605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B2FBADBF1F63876A0067F605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B2FBADC11F63876A0067F605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2FBADC71F6388510067F605 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		B2FBADC91F63888B0067F605 /* MGMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGMessage.swift; sourceTree = "<group>"; };
+		B2FBADCB1F6388F10067F605 /* MongoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MongoController.swift; sourceTree = "<group>"; };
+		B2FBADCD1F63AA300067F605 /* MessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B2FBADAF1F63876A0067F605 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B2FBADA91F63876A0067F605 = {
+			isa = PBXGroup;
+			children = (
+				B2FBADB41F63876A0067F605 /* MongoDB */,
+				B2FBADB31F63876A0067F605 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2FBADB31F63876A0067F605 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B2FBADB21F63876A0067F605 /* MongoDB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B2FBADB41F63876A0067F605 /* MongoDB */ = {
+			isa = PBXGroup;
+			children = (
+				B2FBADB51F63876A0067F605 /* AppDelegate.swift */,
+				B2FBADB91F63876A0067F605 /* Main.storyboard */,
+				B2FBADB71F63876A0067F605 /* ViewController.swift */,
+				B2FBADCD1F63AA300067F605 /* MessageTableViewController.swift */,
+				B2FBADCB1F6388F10067F605 /* MongoController.swift */,
+				B2FBADC91F63888B0067F605 /* MGMessage.swift */,
+				B2FBADBC1F63876A0067F605 /* Assets.xcassets */,
+				B2FBADBE1F63876A0067F605 /* LaunchScreen.storyboard */,
+				B2FBADC11F63876A0067F605 /* Info.plist */,
+				B2FBADC71F6388510067F605 /* Networking.swift */,
+			);
+			path = MongoDB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B2FBADB11F63876A0067F605 /* MongoDB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B2FBADC41F63876A0067F605 /* Build configuration list for PBXNativeTarget "MongoDB" */;
+			buildPhases = (
+				B2FBADAE1F63876A0067F605 /* Sources */,
+				B2FBADAF1F63876A0067F605 /* Frameworks */,
+				B2FBADB01F63876A0067F605 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MongoDB;
+			productName = MongoDB;
+			productReference = B2FBADB21F63876A0067F605 /* MongoDB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B2FBADAA1F63876A0067F605 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Wylan;
+				TargetAttributes = {
+					B2FBADB11F63876A0067F605 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = L4J4QU6QE4;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B2FBADAD1F63876A0067F605 /* Build configuration list for PBXProject "MongoDB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B2FBADA91F63876A0067F605;
+			productRefGroup = B2FBADB31F63876A0067F605 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B2FBADB11F63876A0067F605 /* MongoDB */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B2FBADB01F63876A0067F605 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FBADC01F63876A0067F605 /* LaunchScreen.storyboard in Resources */,
+				B2FBADBD1F63876A0067F605 /* Assets.xcassets in Resources */,
+				B2FBADBB1F63876A0067F605 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B2FBADAE1F63876A0067F605 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FBADCC1F6388F10067F605 /* MongoController.swift in Sources */,
+				B2FBADC81F6388510067F605 /* Networking.swift in Sources */,
+				B2FBADCA1F63888B0067F605 /* MGMessage.swift in Sources */,
+				B2FBADB81F63876A0067F605 /* ViewController.swift in Sources */,
+				B2FBADCE1F63AA300067F605 /* MessageTableViewController.swift in Sources */,
+				B2FBADB61F63876A0067F605 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B2FBADB91F63876A0067F605 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2FBADBA1F63876A0067F605 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B2FBADBE1F63876A0067F605 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B2FBADBF1F63876A0067F605 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B2FBADC21F63876A0067F605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B2FBADC31F63876A0067F605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B2FBADC51F63876A0067F605 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L4J4QU6QE4;
+				INFOPLIST_FILE = MongoDB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wylan.MongoDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B2FBADC61F63876A0067F605 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L4J4QU6QE4;
+				INFOPLIST_FILE = MongoDB/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.wylan.MongoDB;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B2FBADAD1F63876A0067F605 /* Build configuration list for PBXProject "MongoDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2FBADC21F63876A0067F605 /* Debug */,
+				B2FBADC31F63876A0067F605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B2FBADC41F63876A0067F605 /* Build configuration list for PBXNativeTarget "MongoDB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2FBADC51F63876A0067F605 /* Debug */,
+				B2FBADC61F63876A0067F605 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B2FBADAA1F63876A0067F605 /* Project object */;
+}
