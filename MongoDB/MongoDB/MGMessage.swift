@@ -29,7 +29,7 @@ class MGMessage {
     
     init?(json: [String:Any]){
         //change after you figure it out
-        guard let testMessage = json["test"] as? String,
+        guard let testMessage = json["message"] as? String,
             let id = json["_id"] as? [String:Any],
             let soid = id["$oid"] as? String else {return nil}
         self.message = testMessage

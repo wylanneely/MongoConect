@@ -7,18 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B2A1E5AC1F6519FF002F26F2 /* MGUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A1E5AB1F6519FF002F26F2 /* MGUser.swift */; };
+		B2A1E5AE1F651ADB002F26F2 /* MGUserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A1E5AD1F651ADB002F26F2 /* MGUserController.swift */; };
 		B2FBADB61F63876A0067F605 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FBADB51F63876A0067F605 /* AppDelegate.swift */; };
 		B2FBADB81F63876A0067F605 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FBADB71F63876A0067F605 /* ViewController.swift */; };
 		B2FBADBB1F63876A0067F605 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2FBADB91F63876A0067F605 /* Main.storyboard */; };
 		B2FBADBD1F63876A0067F605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2FBADBC1F63876A0067F605 /* Assets.xcassets */; };
 		B2FBADC01F63876A0067F605 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2FBADBE1F63876A0067F605 /* LaunchScreen.storyboard */; };
-		B2FBADC81F6388510067F605 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FBADC71F6388510067F605 /* Networking.swift */; };
 		B2FBADCA1F63888B0067F605 /* MGMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FBADC91F63888B0067F605 /* MGMessage.swift */; };
 		B2FBADCC1F6388F10067F605 /* MongoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FBADCB1F6388F10067F605 /* MongoController.swift */; };
 		B2FBADCE1F63AA300067F605 /* MessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2FBADCD1F63AA300067F605 /* MessageTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B2A1E5AB1F6519FF002F26F2 /* MGUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGUser.swift; sourceTree = "<group>"; };
+		B2A1E5AD1F651ADB002F26F2 /* MGUserController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGUserController.swift; sourceTree = "<group>"; };
 		B2FBADB21F63876A0067F605 /* MongoDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MongoDB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2FBADB51F63876A0067F605 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B2FBADB71F63876A0067F605 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,7 +29,6 @@
 		B2FBADBC1F63876A0067F605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2FBADBF1F63876A0067F605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2FBADC11F63876A0067F605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B2FBADC71F6388510067F605 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
 		B2FBADC91F63888B0067F605 /* MGMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGMessage.swift; sourceTree = "<group>"; };
 		B2FBADCB1F6388F10067F605 /* MongoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MongoController.swift; sourceTree = "<group>"; };
 		B2FBADCD1F63AA300067F605 /* MessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageTableViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +45,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B2A1E5A61F6518D5002F26F2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B2FBADC91F63888B0067F605 /* MGMessage.swift */,
+				B2A1E5AB1F6519FF002F26F2 /* MGUser.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B2A1E5A71F6518D9002F26F2 /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2FBADCB1F6388F10067F605 /* MongoController.swift */,
+				B2A1E5AD1F651ADB002F26F2 /* MGUserController.swift */,
+			);
+			name = ModelControllers;
+			sourceTree = "<group>";
+		};
+		B2A1E5A81F6518DA002F26F2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B2FBADCD1F63AA300067F605 /* MessageTableViewController.swift */,
+				B2FBADB71F63876A0067F605 /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B2A1E5A91F6518DB002F26F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B2A1E5AA1F6518DC002F26F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B2FBADBC1F63876A0067F605 /* Assets.xcassets */,
+				B2FBADBE1F63876A0067F605 /* LaunchScreen.storyboard */,
+				B2FBADC11F63876A0067F605 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		B2FBADA91F63876A0067F605 = {
 			isa = PBXGroup;
 			children = (
@@ -62,16 +108,13 @@
 		B2FBADB41F63876A0067F605 /* MongoDB */ = {
 			isa = PBXGroup;
 			children = (
-				B2FBADB51F63876A0067F605 /* AppDelegate.swift */,
 				B2FBADB91F63876A0067F605 /* Main.storyboard */,
-				B2FBADB71F63876A0067F605 /* ViewController.swift */,
-				B2FBADCD1F63AA300067F605 /* MessageTableViewController.swift */,
-				B2FBADCB1F6388F10067F605 /* MongoController.swift */,
-				B2FBADC91F63888B0067F605 /* MGMessage.swift */,
-				B2FBADBC1F63876A0067F605 /* Assets.xcassets */,
-				B2FBADBE1F63876A0067F605 /* LaunchScreen.storyboard */,
-				B2FBADC11F63876A0067F605 /* Info.plist */,
-				B2FBADC71F6388510067F605 /* Networking.swift */,
+				B2FBADB51F63876A0067F605 /* AppDelegate.swift */,
+				B2A1E5A91F6518DB002F26F2 /* Views */,
+				B2A1E5A81F6518DA002F26F2 /* ViewControllers */,
+				B2A1E5A71F6518D9002F26F2 /* ModelControllers */,
+				B2A1E5A61F6518D5002F26F2 /* Models */,
+				B2A1E5AA1F6518DC002F26F2 /* Resources */,
 			);
 			path = MongoDB;
 			sourceTree = "<group>";
@@ -150,11 +193,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2FBADCC1F6388F10067F605 /* MongoController.swift in Sources */,
-				B2FBADC81F6388510067F605 /* Networking.swift in Sources */,
 				B2FBADCA1F63888B0067F605 /* MGMessage.swift in Sources */,
 				B2FBADB81F63876A0067F605 /* ViewController.swift in Sources */,
 				B2FBADCE1F63AA300067F605 /* MessageTableViewController.swift in Sources */,
 				B2FBADB61F63876A0067F605 /* AppDelegate.swift in Sources */,
+				B2A1E5AE1F651ADB002F26F2 /* MGUserController.swift in Sources */,
+				B2A1E5AC1F6519FF002F26F2 /* MGUser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +362,7 @@
 				B2FBADC61F63876A0067F605 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
