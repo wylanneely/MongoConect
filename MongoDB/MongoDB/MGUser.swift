@@ -14,9 +14,6 @@ class MGUSer {
     
     //able to change display name and picture
     var displayName: String
-    var displayPicture: Int
-    var userDescription: String
-    var theme: Int
     let email: String
     let password: String
     
